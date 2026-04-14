@@ -1,1 +1,10 @@
+hosts:
+  - name: example-node-1
+    ip: 192.168.1.10
+    metrics: true
+    logs: true
 
+  - name: example-node-2
+    ip: 192.168.1.20
+    metrics: true
+    logs: false
